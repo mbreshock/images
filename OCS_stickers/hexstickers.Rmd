@@ -17,4 +17,14 @@ sticker(imgurl, package="OCSdata", p_size=20, s_x=1, s_y=0.9, s_width=.6,
         filename="~/Desktop/michael/images/OCS_stickers/OCSdata_hexsticker.png")
 ```
 
-![ocsdata hexsticker](~/Desktop/michael/images/OCS_stickers/OCSdata_hexsticker.png)
+![ocsdata hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSdata_hexsticker.png)
+
+Open Case Studies Hexsticker
+```{r}
+imgurl <- "https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/icon.png"
+sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.7, 
+        p_y = 1.5, h_fill = "#000000", h_color = "#7F7F7F", asp = 1,
+        url = "www.opencasestudies.org", u_color = "white", u_size = 3,
+        filename="~/Desktop/michael/images/OCS_stickers/OCSorg_hexsticker.png")
+```
+
