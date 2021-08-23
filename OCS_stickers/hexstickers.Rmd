@@ -8,12 +8,13 @@ library(hexSticker)
 ```
 
 
-OCSdata hexsticker outline
+OCSdata hexsticker
 ```{r}
-imgurl <- file.path("~/Desktop/michael/images/OCS_stickers/OCSdata_logo.png")
+imgurl <- "https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSdata_logo.png"
 sticker(imgurl, package="OCSdata", p_size=20, s_x=1, s_y=0.9, s_width=.6, 
         p_y = 1.5, h_fill = "#000000", h_color = "#7F7F7F", asp = 1,
         url = "https://CRAN.R-project.org/package=OCSdata", u_color = "white", u_size = 3,
         filename="~/Desktop/michael/images/OCS_stickers/OCSdata_hexsticker.png")
 ```
 
+![ocsdata hexsticker](~/Desktop/michael/images/OCS_stickers/OCSdata_hexsticker.png)
