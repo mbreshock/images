@@ -28,3 +28,4 @@ sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.7,
         filename="~/Desktop/michael/images/OCS_stickers/OCSorg_hexsticker.png")
 ```
 
+![ocs org hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSorg_hexsticker.png)
