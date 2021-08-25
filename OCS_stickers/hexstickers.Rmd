@@ -23,11 +23,11 @@ Open Case Studies Hexsticker
 ```{r}
 imgurl <- "/Users/michael/Desktop/Michael/images/OCS_stickers/icon_bigger.png"
 sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.6, 
-        p_y = 1.5, h_fill = "#248a8d", h_color = "#000000", asp = 1,
-        url = "www.opencasestudies.org", u_color = "white", u_size = 5,
+        p_y = 1.5, h_fill = "#fbb730", h_color = "#000000", asp = 1,
+        url = "www.opencasestudies.org", u_color = "black", u_size = 5,
         filename="~/Desktop/michael/images/OCS_stickers/OCSorg_hexsticker_big_colorbg_gold.png")
 ```
 
 ![ocs org hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSorg_hexsticker_big.png)
 
-
+teal: #248a8d
