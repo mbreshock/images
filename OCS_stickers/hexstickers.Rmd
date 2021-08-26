@@ -21,7 +21,7 @@ sticker(imgurl, package="OCSdata", p_size=20, p_family = "Calibri", s_x=0.9,
         filename = "C:/Users/Michael/Desktop/OCS/images/OCS_stickers/OCSdata_hexsticker_new_light.png")
 ```
 
-![ocsdata hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSdata_hexsticker_new.png)
+![ocsdata hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSdata_hexsticker_new_light.png)
 
 Open Case Studies Hexsticker
 ```{r}
