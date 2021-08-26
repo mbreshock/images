@@ -21,7 +21,7 @@ sticker(imgurl, package="OCSdata", p_size=20, s_x=1, s_y=0.9, s_width=.6,
 
 Open Case Studies Hexsticker
 ```{r}
-imgurl <- "/Users/michael/Desktop/Michael/images/OCS_stickers/icon_bigger.png"
+imgurl <- "https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/icon_bigger.png"
 sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.6, 
         p_y = 1.5, h_fill = "#fbb730", h_color = "#000000", asp = 1,
         url = "www.opencasestudies.org", u_color = "black", u_size = 5,
@@ -31,3 +31,13 @@ sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.6,
 ![ocs org hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSorg_hexsticker_big.png)
 
 teal: #248a8d
+
+
+blank hexsticker template
+```{r}
+p = geom_blank() # empty plot
+sticker(p, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.6, 
+        p_y = 1.5, h_fill = "#FFFFFF", h_color = "#FFFFFF", asp = 1,
+        filename=file.path("~/Desktop","OCS","images","OCS_stickers","blank_hex.png"))
+```
+
