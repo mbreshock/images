@@ -17,8 +17,8 @@ imgurl = "https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers
 sticker(imgurl, package="OCSdata", p_size=20, p_family = "Calibri", s_x=0.9, 
         s_y=0.95, s_width=.8, p_y = 1.5, h_fill = "#248a8d", h_color = "#7F7F7F",
         url = "https://CRAN.R-project.org/package=OCSdata", u_color = "white", 
-        u_size = 4, u_family = "Calibri",
-        filename = "C:/Users/Michael/Desktop/OCS/images/OCS_stickers/OCSdata_hexsticker_light_laptop.png")
+        u_size = 4, u_family = "Calibri", p_fontface = "bold",
+        filename = "C:/Users/Michael/Desktop/OCS/images/OCS_stickers/OCSdata_hexsticker_light_laptop_bold.png")
 ```
 
 ![ocsdata hexsticker](https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/OCSdata_hexsticker_light_laptop.png)
