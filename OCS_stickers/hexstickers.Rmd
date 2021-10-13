@@ -42,6 +42,7 @@ teal: #248a8d
 blank hexsticker template
 ```{r}
 imgurl = "https://raw.githubusercontent.com/mbreshock/images/master/OCS_stickers/FFFFFF.png"
+
 sticker(imgurl, package=" ", p_size=20, s_x=1, s_y=1., s_width=0.1, 
         p_y = 1.5, h_fill = "#FFFFFF", h_color = "#FFFFFF", asp = 1,
         filename = "C:/Users/Michael/Desktop/OCS/images/OCS_stickers/blank_hex.png") #file.path("~/Desktop","OCS","images","OCS_stickers","blank_hex.png")
