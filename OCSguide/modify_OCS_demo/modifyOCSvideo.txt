@@ -1,0 +1,62 @@
+Modifying case study video outline: 
+
+introduction: 
+*on ocs webpage*
+This video will show you how to modify an existing Open Case Study for your own specific needs. 
+
+By the end of the demonstration, you will know how to: 
+1. Find the case study GitHub repository 
+
+2. Clone or fork the case study
+
+3. Open the case study source files in RStudio
+
+4. Modify the source files
+
+5. Compile the modified case study
+
+
+You can find the case study repository using the Open Case Study Search tool on our website.
+
+Locate the case study you want to modify, and click on the repository link in the GitHub Repository column.
+
+*on case study page*
+You can also find a link to the repository in the case study itself.
+
+*on github repository*
+From here you can clone and fork the case study repository using git shell comands or the new OCSdata package. 
+If you don't want the repository's version history, you may also use the package to download the case study 
+as a Zip file. I will be using the Zip file method for this demonstration. 
+
+*on RStudio*
+
+```
+show how to 
+install.packages("OCSdata")
+OCSdata::
+```
+
+- using pop up tooltips, show the clone_ocs function and how to fork briefly but dont run -
+
+```
+OCSdata::clone_ocs("ocs-bp-co2-emissions", outpath = getwd(), fork_repo = FALSE)
+```
+
+- show false to clone, true to fork, BUT DONT RUN - 
+
+```
+OCSdata::zip_ocs("ocs-bp-co2-emissions", outpath = getwd())
+```
+
+Once case study project opens automatically, open the index.Rmd file and scroll to the section you want to edit.
+
+Modify the content as you wish, then click on the knit dropdown menu to select which format you want to compile your case study in. 
+Open Case Studies uses HTML files to host the case studies online, but any of these formats can easily be distributed. 
+
+Click knit
+
+once is done knitting, RStudio will automatically render a preview of your case study. You can also see the compiled file in your working directory. 
+
+That's all you have to do to modify a case study! thank you for watching. 
+
+
