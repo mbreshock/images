@@ -1,0 +1,148 @@
+1
+00:00:00,200 --> 00:00:01,240
+This video will show you how to
+
+2
+00:00:01,240 --> 00:00:03,240
+modify an existing Open Case Study
+
+3
+00:00:03,240 --> 00:00:05,050
+for your own specific needs. 
+
+4
+00:00:05,100 --> 00:00:07,030
+By the end of the demonstration,
+
+5
+00:00:07,030 --> 00:00:08,100
+you will know how to:
+
+6
+00:00:08,100 --> 00:00:10,200
+Find the case study GitHub repository
+
+7
+00:00:10,200 --> 00:00:13,100
+Clone or fork the case study
+
+8
+00:00:13,100 --> 00:00:16,030
+Open the case study source files in RStudio
+
+9
+00:00:16,030 --> 00:00:18,090
+Modify the source files
+
+10
+00:00:18,090 --> 00:00:21,060
+and finally, Compile the modified case study.
+
+11
+00:00:22,000 --> 00:00:26,200
+You can find the case study repository
+using the Open Case Study Search tool on our website.
+
+12
+00:00:27,000 --> 00:00:31,000
+It's located on the bottom of the webpage,
+or you can find it by clicking on the tab
+
+13
+00:00:33,010 --> 00:00:36,100
+From here, you can locate the case study
+you want to modify
+
+14
+00:00:36,100 --> 00:00:39,140
+and click on the repository link from
+the GitHub repository column.
+
+15
+00:00:40,200 --> 00:00:44,100
+For this demonstration we will be using
+the CO2 Emissions case study.
+
+16
+00:00:46,020 --> 00:00:50,120
+If your case study offers it, you can
+select to edit either the static version repository
+
+17
+00:00:50,120 --> 00:00:52,000
+or the interactive version. 
+
+18
+00:00:52,020 --> 00:00:54,010
+For this demonstration, we'll be using the static version.
+
+19
+00:00:56,200 --> 00:01:00,000
+You can also find a link to the 
+repository in the case study itself.
+
+20
+00:01:05,230 --> 00:01:09,050
+From here, you can clone and
+fork the case study repository
+
+21
+00:01:09,100 --> 00:01:13,110
+using Git shell commands, or the new OCSdata package!
+
+22
+00:01:13,210 --> 00:01:16,060
+If you don't want the repository's version history,
+
+23
+00:01:16,060 --> 00:01:19,160
+you may also use the package to download
+the case study as a zip file.
+
+24
+00:01:19,240 --> 00:01:22,150
+I will be using the zip file method
+for this demonstration. 
+
+25
+00:01:24,010 --> 00:01:27,020
+First, you'll need to install the OCSdata package.
+
+26
+00:01:24,010 --> 00:01:27,020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
